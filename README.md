@@ -1,27 +1,20 @@
-TWRP device configuration for Xiaomi Redmi 3S/Prime/3X
+SHRP device configuration for Nokia 8
 =============================
 
-The Xiaomi Redmi 3S/Prime/3X (codenamed _"land"_) is a mid-end smartphone from Xiaomi.
+The Nokia 8 is a high-end Nokia-branded smartphone running the Android operating system
+Announced on 16 August 2017 in London, England by HMD Global,[4][5] the phone began sales in Europe in September 2017.
 
-It was announced and released in June 2016.
+| Basic                   | Spec Sheet                                                                                                                     |
+| -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
+| CPU                     | Octa-core (4x2.5 GHz Kryo & 4x1.8 GHz Kryo)                                                                           |
+| Chipset                 | Qualcomm MSM8998 Snapdragon 835 (10 nm)                                                                                                 |
+| GPU                     | Adreno 540                                                                                                                     |
+| Memory                  | 4/6 GB RAM                                                                                                                     |
+| Shipped Android Version | Android 7.1.1 (Nougat)                                                                                                                            |
+| Storage                 | 64/128 GB                                                                                                                          |
+| Battery                 | Non-removable Li-Ion 3090 mAh battery                                                                                           |
+| Display                 | 1440 x 2560 pixels, 16:9 ratio (~554 ppi density)                                                                              |
+| Camera (Back)           | 13 MP, f/2.0, 1/3.1", 1.12µm, PDAF, Laser AF, OIS                                                                              |
+| Camera (Front)          | 13 MP, f/2.0, (wide), 1/3.1", 1.12µm, PDAF                                                                                                    |
 
-## Device specifications
-
-Basic   | Spec Sheet
--------:|:-------------------------
-Chipset | Qualcomm MSM8937 Snapdragon 430
-CPU     | Octa-core (4x1.40 GHz Cortex-A53 & 4x1.09 GHz Cortex-A53)
-GPU     | Adreno 505 (450 MHz)
-Memory  | 2/3 GB RAM (LPDDR3 800 MHz)
-Shipped Android Version | 6.0.1 (MIUI 7)
-Storage | 16/32 GB (eMMC 5.0/5.1 flash)
-MicroSD | up to 256 GB (uses SIM 2 slot)
-Battery | Li-Po 4100 mAh (Non-removable)
-Dimensions | 139.3 x 69.6 x 8.5 mm
-Display | 1280 x 720 pixels, 5.0 inches (~294 ppi pixel density)
-Rear Camera  | 13 MP, f/2.0, phase detection autofocus, LED flash
-Front Camera | 5 MP, f/2.2
-
-## Device picture
-
-![Xiaomi Redmi 3S/Prime/3X](http://i01.appmifile.com/webfile/globalimg/en/goods/hongmi3s/specs-preview-06.jpg "Xiaomi Redmi 3S/Prime/3X")
+![Nokia 6.1 Plus](https://fdn2.gsmarena.com/vv/pics/nokia/nokia-8-5.jpg)
