@@ -14,16 +14,10 @@
 # limitations under the License.
 #
 
-ALLOW_MISSING_DEPENDENCIES=true
+# Release name
+PRODUCT_RELEASE_NAME := NB1
 
-# Get the prebuilt list of APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
-
-# Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Inherit language packages
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+$(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
@@ -44,6 +38,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script \
     update_engine \
+    update_engine_sideload \
     update_verifier
 
 # The following modules are included in debuggable builds only.
@@ -57,12 +52,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.msm8998 \
+    libcutils \
     libgptutils \
     libz
 
-PRODUCT_PACKAGES += \
-    charger_res_images \
-    charger
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.keystore=msm8998 \
+    ro.hardware.gatekeeper=msm8998
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := NB1
