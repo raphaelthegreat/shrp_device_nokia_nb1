@@ -17,4 +17,29 @@ Announced on 16 August 2017 in London, England by HMD Global,[4][5] the phone be
 | Camera (Back)           | 13 MP, f/2.0, 1/3.1", 1.12µm, PDAF, Laser AF, OIS                                                                              |
 | Camera (Front)          | 13 MP, f/2.0, (wide), 1/3.1", 1.12µm, PDAF                                                                                                    |
 
-![Nokia 6.1 Plus](https://fdn2.gsmarena.com/vv/pics/nokia/nokia-8-5.jpg)
+![Nokia 8](https://fdn2.gsmarena.com/vv/pics/nokia/nokia-8-5.jpg)
+
+## Build instructions
+
+For compilation you should use this SHRP manifest: https://github.com/SKYHAWK-Recovery-Project/platform_manifest_twrp_omni
+
+```bash
+# Compiling
+$ . build/envsetup.sh
+$ export ALLOW_MISSING_DEPENDENCIES=true
+$ lunch omni_NB1-eng
+$ make -jx recoveryimage // replace x in -jx with number of cores you want to use for compilation
+```
+ 
+### Thanks to:
+ * TeamWin Team
+ * Omni Team
+ * XDA Forums
+ * Dees-Troy
+ * HikariCalyx
+ * sjrmac
+ * bidhata
+ * cosmicdan
+ * wuxianlin
+ * dg28gadhavi
+ * StollD
